@@ -6,7 +6,7 @@ body,
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("pixilart-drawing Kopie.png"); /* Ersetzen Sie 'pfad/zum/bild.jpg' durch den tatsächlichen Pfad zu Ihrem Bild */
+  background-image: url("background.png"); /* Ersetzen Sie 'pfad/zum/bild.jpg' durch den tatsächlichen Pfad zu Ihrem Bild */
   background-size: 200px; /* Stellt sicher, dass das Bild die gesamte Seite abdeckt */
   background-position: center; /* Zentriert das Bild auf der Seite */
   height: 100vh; /* Stellt sicher, dass der Hintergrund die volle Seitenhöhe einnimmt */

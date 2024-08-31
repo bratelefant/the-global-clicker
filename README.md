@@ -21,4 +21,8 @@ The Global Clicker is hosted on [Scalingo](https://www.scalingo.com). As soon as
 
 ## ToDo
 
-Linting, Tests, Docs, and GitHub Actions
+- Remove AutoPublish
+- Linting
+- Tests 
+- Docs 
+- CI/CD (via GitHub Actions)
