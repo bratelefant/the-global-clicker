@@ -14,7 +14,7 @@ Meteor.methods({
    * Increment the global clicker
    */
   globalClick: async () => {
-    ClickerCollection.updateAsync(
+    await ClickerCollection.updateAsync(
       { name: "Global Clicker" },
       { $inc: { count: 1 } }
     );
