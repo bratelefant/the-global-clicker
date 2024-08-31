@@ -14,7 +14,7 @@ Datenbankeinträge an alle Clients sendet.
 
 ### Deploy
 
-Der Global Clicker wird bei [scalingo](www.scalingo.com) gehostet. Sobald ein Pull-Request in den `deploy` branch gemerged werden, wird die Anwendung deployed. Änderungen in `deploy` können nur per Pull-Request eingebracht werden und erfordern eine Review.
+Der Global Clicker wird bei [scalingo](https://www.scalingo.com) gehostet. Sobald ein Pull-Request in den `deploy` branch gemerged werden, wird die Anwendung deployed. Änderungen in `deploy` können nur per Pull-Request eingebracht werden und erfordern eine Review.
 
 ### ToDo
 
