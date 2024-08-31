@@ -8,7 +8,7 @@ Try it here: [www.global-clicker.com](https://www.global-clicker.com)
 
 ## Installation and Start
 
-After cloning, run `meteor npm install`. The server is started with `meteor npm start`.
+After cloning, run `meteor npm install`. The server is started with `meteor npm start`. Open `http://localhost:3000` to start testing your local instance.
 
 ## Functionality
 
