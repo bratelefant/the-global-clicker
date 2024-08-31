@@ -18,4 +18,4 @@ Der Global Clicker wird bei [scalingo](https://www.scalingo.com) gehostet. Sobal
 
 ### ToDo
 
-Tests
+Tests, Docs und Github Action
