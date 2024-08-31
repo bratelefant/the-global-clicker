@@ -12,3 +12,10 @@ Beim Start wird der "Global Clicker" in die `clicker` Collection eingefügt. Bei
 Alle Dokumente der `clicker` Collection werden an alle Teilnehmer publiziert, da derzeit das `insecure` package installiert ist, welches alle
 Datenbankeinträge an alle Clients sendet.
 
+### Deploy
+
+Der Global Clicker wird bei [scalingo](www.scalingo.com) gehostet. Sobald ein Pull-Request in den `deploy` branch gemerged werden, wird die Anwendung deployed. Änderungen in `deploy` können nur per Pull-Request eingebracht werden und erfordern eine Review.
+
+### ToDo
+
+Tests
