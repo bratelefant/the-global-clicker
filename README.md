@@ -1,21 +1,24 @@
-# Das ist der grandiose Global Clicker
+# This is the ultimate multiplayer Global Clicker Experience
 
-## Deine ultimative Cookie Clicker Multiplayer Erfahrung
+This is a playground side project, on [Meteor 3.0](https://www.meteor.com) + [React](https://react.dev), using Meteors optimistic UI.
 
-### Installation und Start
+## Production
 
-Nach dem Clonen `meteor npm install` aufrufen. Der Server wird durch `npm start` gestartet.
+Try it here: [www.global-clicker.com](https://www.global-clicker.com)
 
-### Funktionsweise
+## Installation and Start
 
-Beim Start wird der "Global Clicker" in die `clicker` Collection eingefügt. Beim Klicken wird der `counter` des Clicker immer um 1 erhöht.
-Alle Dokumente der `clicker` Collection werden an alle Teilnehmer publiziert, da derzeit das `insecure` package installiert ist, welches alle
-Datenbankeinträge an alle Clients sendet.
+After cloning, run `meteor npm install`. The server is started with `meteor npm start`.
 
-### Deploy
+## Functionality
 
-Der Global Clicker wird bei [scalingo](https://www.scalingo.com) gehostet. Sobald ein Pull-Request in den `deploy` branch gemerged werden, wird die Anwendung deployed. Änderungen in `deploy` können nur per Pull-Request eingebracht werden und erfordern eine Review.
+At startup, the "Global Clicker" is inserted into the `clicker` collection. With each click, the `counter` of the clicker is incremented by 1.
+All documents in the `clicker` collection are published to all participants since the `insecure` package is currently installed, which sends all database entries to all clients.
 
-### ToDo
+## Deployment
 
-Tests, Docs und Github Action
+The Global Clicker is hosted on [Scalingo](https://www.scalingo.com). As soon as a pull request is merged into the `deploy` branch, the application is deployed. Changes in `deploy` can only be made via pull request and require a review.
+
+## ToDo
+
+Linting, Tests, Docs, and GitHub Actions
