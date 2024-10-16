@@ -10,6 +10,7 @@ body,
   background-size: 200px; /* Stellt sicher, dass das Bild die gesamte Seite abdeckt */
   background-position: center; /* Zentriert das Bild auf der Seite */
   height: 100vh; /* Stellt sicher, dass der Hintergrund die volle Seitenhöhe einnimmt */
+  user-select: none; /* Verhindert das Markieren von Text */
 }
 
 #root {
@@ -21,6 +22,7 @@ body,
   display: flex;
   flex: 1;
   flex-direction: column;
+  user-select: none;
 }
 
 #react-target {
