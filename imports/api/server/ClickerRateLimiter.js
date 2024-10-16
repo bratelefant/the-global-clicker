@@ -11,6 +11,9 @@ export function initRateLimiters() {
     {
       type: "method",
       name: "globalClick",
+      connectionId() {
+        return true; // Apply the rule per connection
+      },
     },
     15,
     1000
