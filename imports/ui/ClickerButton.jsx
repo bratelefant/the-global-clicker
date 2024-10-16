@@ -5,6 +5,7 @@ export const ClickerButton = ({ onClick }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const buttonStyle = {
+    userSelect: "none",
     border: "none",
     background: "none",
     padding: 0,
@@ -12,6 +13,7 @@ export const ClickerButton = ({ onClick }) => {
   };
 
   const imageStyle = {
+    userSelect: "none",
     width: "300px",
     height: "auto",
     transition: "transform 0.2s ease-in-out",
